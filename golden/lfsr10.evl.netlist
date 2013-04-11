@@ -1,0 +1,28 @@
+12 13
+net nx 2
+net s[0] 4
+net s[1] 4
+net s[2] 4
+net s[3] 4
+net s[4] 4
+net s[5] 4
+net s[6] 5
+net s[7] 4
+net s[8] 4
+net s[9] 4
+net x 2
+pin not NONE 0
+pin not NONE 1
+gate not NONE 2
+pin 2 nx
+pin 4 s[0]
+pin 4 s[1]
+pin 4 s[2]
+pin 4 s[3]
+pin 4 s[4]
+pin 4 s[5]
+pin 5 s[6]
+pin 4 s[7]
+pin 4 s[8]
+pin 4 s[9]
+pin 2 x

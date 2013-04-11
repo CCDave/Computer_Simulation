@@ -1,0 +1,4 @@
+module top 1 1
+wire a 16
+component not NONE 1
+pin a 1 1

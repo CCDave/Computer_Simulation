@@ -1,0 +1,19 @@
+4 2
+net s0 1
+pin input name5 0
+net s1 1
+pin output name3 2
+net s2 2
+pin input name5 1
+pin output name3 1
+net s3 2
+pin input name5 2
+pin output name3 0
+gate input name5 3
+pin 1 s0
+pin 1 s2
+pin 1 s3
+gate output name3 3
+pin 1 s3
+pin 1 s2
+pin 1 s1

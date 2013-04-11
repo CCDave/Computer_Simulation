@@ -1,0 +1,855 @@
+115 100
+net a[0] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[10] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[11] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[12] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[13] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[14] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[15] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[1] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[2] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[3] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[4] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[5] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[6] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[7] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[8] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net a[9] 4
+pin output sim_out 0
+pin dff NONE 0
+pin xor NONE 1
+pin and NONE 1
+net ci[0] 3
+pin one NONE 0
+pin xor NONE 2
+pin and NONE 2
+net ci[10] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[11] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[12] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[13] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[14] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[15] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[16] 1
+pin and NONE 0
+net ci[1] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[2] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[3] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[4] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[5] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[6] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[7] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[8] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net ci[9] 3
+pin xor NONE 2
+pin and NONE 0
+pin and NONE 2
+net in[0] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[10] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[11] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[12] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[13] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[14] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[15] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[1] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[2] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[3] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[4] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[5] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[6] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[7] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[8] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net in[9] 3
+pin input sim_in 1
+pin output sim_out 2
+pin and NONE 2
+net mux_o[0] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[10] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[11] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[12] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[13] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[14] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[15] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[1] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[2] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[3] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[4] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[5] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[6] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[7] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[8] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net mux_o[9] 3
+pin output sim_out 4
+pin dff NONE 1
+pin or NONE 0
+net nsa[0] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[10] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[11] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[12] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[13] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[14] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[15] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[1] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[2] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[3] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[4] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[5] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[6] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[7] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[8] 2
+pin and NONE 0
+pin or NONE 1
+net nsa[9] 2
+pin and NONE 0
+pin or NONE 1
+net nset 17
+pin not NONE 0
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+net s[0] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[10] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[11] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[12] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[13] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[14] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[15] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[1] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[2] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[3] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[4] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[5] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[6] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[7] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[8] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net s[9] 3
+pin output sim_out 1
+pin xor NONE 0
+pin and NONE 2
+net set 19
+pin input sim_in 0
+pin output sim_out 3
+pin not NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+pin and NONE 1
+net sin[0] 2
+pin and NONE 0
+pin or NONE 2
+net sin[10] 2
+pin and NONE 0
+pin or NONE 2
+net sin[11] 2
+pin and NONE 0
+pin or NONE 2
+net sin[12] 2
+pin and NONE 0
+pin or NONE 2
+net sin[13] 2
+pin and NONE 0
+pin or NONE 2
+net sin[14] 2
+pin and NONE 0
+pin or NONE 2
+net sin[15] 2
+pin and NONE 0
+pin or NONE 2
+net sin[1] 2
+pin and NONE 0
+pin or NONE 2
+net sin[2] 2
+pin and NONE 0
+pin or NONE 2
+net sin[3] 2
+pin and NONE 0
+pin or NONE 2
+net sin[4] 2
+pin and NONE 0
+pin or NONE 2
+net sin[5] 2
+pin and NONE 0
+pin or NONE 2
+net sin[6] 2
+pin and NONE 0
+pin or NONE 2
+net sin[7] 2
+pin and NONE 0
+pin or NONE 2
+net sin[8] 2
+pin and NONE 0
+pin or NONE 2
+net sin[9] 2
+pin and NONE 0
+pin or NONE 2
+gate input sim_in 2
+pin 1 set
+pin 16 in[0] in[1] in[2] in[3] in[4] in[5] in[6] in[7] in[8] in[9] in[10] in[11] in[12] in[13] in[14] in[15]
+gate output sim_out 5
+pin 16 a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] a[8] a[9] a[10] a[11] a[12] a[13] a[14] a[15]
+pin 16 s[0] s[1] s[2] s[3] s[4] s[5] s[6] s[7] s[8] s[9] s[10] s[11] s[12] s[13] s[14] s[15]
+pin 16 in[0] in[1] in[2] in[3] in[4] in[5] in[6] in[7] in[8] in[9] in[10] in[11] in[12] in[13] in[14] in[15]
+pin 1 set
+pin 16 mux_o[0] mux_o[1] mux_o[2] mux_o[3] mux_o[4] mux_o[5] mux_o[6] mux_o[7] mux_o[8] mux_o[9] mux_o[10] mux_o[11] mux_o[12] mux_o[13] mux_o[14] mux_o[15]
+gate dff NONE 2
+pin 1 a[0]
+pin 1 mux_o[0]
+gate dff NONE 2
+pin 1 a[1]
+pin 1 mux_o[1]
+gate dff NONE 2
+pin 1 a[2]
+pin 1 mux_o[2]
+gate dff NONE 2
+pin 1 a[3]
+pin 1 mux_o[3]
+gate dff NONE 2
+pin 1 a[4]
+pin 1 mux_o[4]
+gate dff NONE 2
+pin 1 a[5]
+pin 1 mux_o[5]
+gate dff NONE 2
+pin 1 a[6]
+pin 1 mux_o[6]
+gate dff NONE 2
+pin 1 a[7]
+pin 1 mux_o[7]
+gate dff NONE 2
+pin 1 a[8]
+pin 1 mux_o[8]
+gate dff NONE 2
+pin 1 a[9]
+pin 1 mux_o[9]
+gate dff NONE 2
+pin 1 a[10]
+pin 1 mux_o[10]
+gate dff NONE 2
+pin 1 a[11]
+pin 1 mux_o[11]
+gate dff NONE 2
+pin 1 a[12]
+pin 1 mux_o[12]
+gate dff NONE 2
+pin 1 a[13]
+pin 1 mux_o[13]
+gate dff NONE 2
+pin 1 a[14]
+pin 1 mux_o[14]
+gate dff NONE 2
+pin 1 a[15]
+pin 1 mux_o[15]
+gate one NONE 1
+pin 1 ci[0]
+gate xor NONE 3
+pin 1 s[0]
+pin 1 a[0]
+pin 1 ci[0]
+gate xor NONE 3
+pin 1 s[1]
+pin 1 a[1]
+pin 1 ci[1]
+gate xor NONE 3
+pin 1 s[2]
+pin 1 a[2]
+pin 1 ci[2]
+gate xor NONE 3
+pin 1 s[3]
+pin 1 a[3]
+pin 1 ci[3]
+gate xor NONE 3
+pin 1 s[4]
+pin 1 a[4]
+pin 1 ci[4]
+gate xor NONE 3
+pin 1 s[5]
+pin 1 a[5]
+pin 1 ci[5]
+gate xor NONE 3
+pin 1 s[6]
+pin 1 a[6]
+pin 1 ci[6]
+gate xor NONE 3
+pin 1 s[7]
+pin 1 a[7]
+pin 1 ci[7]
+gate xor NONE 3
+pin 1 s[8]
+pin 1 a[8]
+pin 1 ci[8]
+gate xor NONE 3
+pin 1 s[9]
+pin 1 a[9]
+pin 1 ci[9]
+gate xor NONE 3
+pin 1 s[10]
+pin 1 a[10]
+pin 1 ci[10]
+gate xor NONE 3
+pin 1 s[11]
+pin 1 a[11]
+pin 1 ci[11]
+gate xor NONE 3
+pin 1 s[12]
+pin 1 a[12]
+pin 1 ci[12]
+gate xor NONE 3
+pin 1 s[13]
+pin 1 a[13]
+pin 1 ci[13]
+gate xor NONE 3
+pin 1 s[14]
+pin 1 a[14]
+pin 1 ci[14]
+gate xor NONE 3
+pin 1 s[15]
+pin 1 a[15]
+pin 1 ci[15]
+gate and NONE 3
+pin 1 ci[1]
+pin 1 a[0]
+pin 1 ci[0]
+gate and NONE 3
+pin 1 ci[2]
+pin 1 a[1]
+pin 1 ci[1]
+gate and NONE 3
+pin 1 ci[3]
+pin 1 a[2]
+pin 1 ci[2]
+gate and NONE 3
+pin 1 ci[4]
+pin 1 a[3]
+pin 1 ci[3]
+gate and NONE 3
+pin 1 ci[5]
+pin 1 a[4]
+pin 1 ci[4]
+gate and NONE 3
+pin 1 ci[6]
+pin 1 a[5]
+pin 1 ci[5]
+gate and NONE 3
+pin 1 ci[7]
+pin 1 a[6]
+pin 1 ci[6]
+gate and NONE 3
+pin 1 ci[8]
+pin 1 a[7]
+pin 1 ci[7]
+gate and NONE 3
+pin 1 ci[9]
+pin 1 a[8]
+pin 1 ci[8]
+gate and NONE 3
+pin 1 ci[10]
+pin 1 a[9]
+pin 1 ci[9]
+gate and NONE 3
+pin 1 ci[11]
+pin 1 a[10]
+pin 1 ci[10]
+gate and NONE 3
+pin 1 ci[12]
+pin 1 a[11]
+pin 1 ci[11]
+gate and NONE 3
+pin 1 ci[13]
+pin 1 a[12]
+pin 1 ci[12]
+gate and NONE 3
+pin 1 ci[14]
+pin 1 a[13]
+pin 1 ci[13]
+gate and NONE 3
+pin 1 ci[15]
+pin 1 a[14]
+pin 1 ci[14]
+gate and NONE 3
+pin 1 ci[16]
+pin 1 a[15]
+pin 1 ci[15]
+gate not NONE 2
+pin 1 nset
+pin 1 set
+gate and NONE 3
+pin 1 nsa[0]
+pin 1 nset
+pin 1 s[0]
+gate and NONE 3
+pin 1 nsa[1]
+pin 1 nset
+pin 1 s[1]
+gate and NONE 3
+pin 1 nsa[2]
+pin 1 nset
+pin 1 s[2]
+gate and NONE 3
+pin 1 nsa[3]
+pin 1 nset
+pin 1 s[3]
+gate and NONE 3
+pin 1 nsa[4]
+pin 1 nset
+pin 1 s[4]
+gate and NONE 3
+pin 1 nsa[5]
+pin 1 nset
+pin 1 s[5]
+gate and NONE 3
+pin 1 nsa[6]
+pin 1 nset
+pin 1 s[6]
+gate and NONE 3
+pin 1 nsa[7]
+pin 1 nset
+pin 1 s[7]
+gate and NONE 3
+pin 1 nsa[8]
+pin 1 nset
+pin 1 s[8]
+gate and NONE 3
+pin 1 nsa[9]
+pin 1 nset
+pin 1 s[9]
+gate and NONE 3
+pin 1 nsa[10]
+pin 1 nset
+pin 1 s[10]
+gate and NONE 3
+pin 1 nsa[11]
+pin 1 nset
+pin 1 s[11]
+gate and NONE 3
+pin 1 nsa[12]
+pin 1 nset
+pin 1 s[12]
+gate and NONE 3
+pin 1 nsa[13]
+pin 1 nset
+pin 1 s[13]
+gate and NONE 3
+pin 1 nsa[14]
+pin 1 nset
+pin 1 s[14]
+gate and NONE 3
+pin 1 nsa[15]
+pin 1 nset
+pin 1 s[15]
+gate and NONE 3
+pin 1 sin[0]
+pin 1 set
+pin 1 in[0]
+gate and NONE 3
+pin 1 sin[1]
+pin 1 set
+pin 1 in[1]
+gate and NONE 3
+pin 1 sin[2]
+pin 1 set
+pin 1 in[2]
+gate and NONE 3
+pin 1 sin[3]
+pin 1 set
+pin 1 in[3]
+gate and NONE 3
+pin 1 sin[4]
+pin 1 set
+pin 1 in[4]
+gate and NONE 3
+pin 1 sin[5]
+pin 1 set
+pin 1 in[5]
+gate and NONE 3
+pin 1 sin[6]
+pin 1 set
+pin 1 in[6]
+gate and NONE 3
+pin 1 sin[7]
+pin 1 set
+pin 1 in[7]
+gate and NONE 3
+pin 1 sin[8]
+pin 1 set
+pin 1 in[8]
+gate and NONE 3
+pin 1 sin[9]
+pin 1 set
+pin 1 in[9]
+gate and NONE 3
+pin 1 sin[10]
+pin 1 set
+pin 1 in[10]
+gate and NONE 3
+pin 1 sin[11]
+pin 1 set
+pin 1 in[11]
+gate and NONE 3
+pin 1 sin[12]
+pin 1 set
+pin 1 in[12]
+gate and NONE 3
+pin 1 sin[13]
+pin 1 set
+pin 1 in[13]
+gate and NONE 3
+pin 1 sin[14]
+pin 1 set
+pin 1 in[14]
+gate and NONE 3
+pin 1 sin[15]
+pin 1 set
+pin 1 in[15]
+gate or NONE 3
+pin 1 mux_o[0]
+pin 1 nsa[0]
+pin 1 sin[0]
+gate or NONE 3
+pin 1 mux_o[1]
+pin 1 nsa[1]
+pin 1 sin[1]
+gate or NONE 3
+pin 1 mux_o[2]
+pin 1 nsa[2]
+pin 1 sin[2]
+gate or NONE 3
+pin 1 mux_o[3]
+pin 1 nsa[3]
+pin 1 sin[3]
+gate or NONE 3
+pin 1 mux_o[4]
+pin 1 nsa[4]
+pin 1 sin[4]
+gate or NONE 3
+pin 1 mux_o[5]
+pin 1 nsa[5]
+pin 1 sin[5]
+gate or NONE 3
+pin 1 mux_o[6]
+pin 1 nsa[6]
+pin 1 sin[6]
+gate or NONE 3
+pin 1 mux_o[7]
+pin 1 nsa[7]
+pin 1 sin[7]
+gate or NONE 3
+pin 1 mux_o[8]
+pin 1 nsa[8]
+pin 1 sin[8]
+gate or NONE 3
+pin 1 mux_o[9]
+pin 1 nsa[9]
+pin 1 sin[9]
+gate or NONE 3
+pin 1 mux_o[10]
+pin 1 nsa[10]
+pin 1 sin[10]
+gate or NONE 3
+pin 1 mux_o[11]
+pin 1 nsa[11]
+pin 1 sin[11]
+gate or NONE 3
+pin 1 mux_o[12]
+pin 1 nsa[12]
+pin 1 sin[12]
+gate or NONE 3
+pin 1 mux_o[13]
+pin 1 nsa[13]
+pin 1 sin[13]
+gate or NONE 3
+pin 1 mux_o[14]
+pin 1 nsa[14]
+pin 1 sin[14]
+gate or NONE 3
+pin 1 mux_o[15]
+pin 1 nsa[15]
+pin 1 sin[15]

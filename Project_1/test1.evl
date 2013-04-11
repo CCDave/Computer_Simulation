@@ -1,0 +1,7 @@
+//Ignore this
+module top;
+//Ignore this too
+	mux(1,0);
+	ff(14);
+	
+endmodule

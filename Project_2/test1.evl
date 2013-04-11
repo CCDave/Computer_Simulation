@@ -1,0 +1,9 @@
+// Testing single bit wires
+module top;
+	
+	wire s0,s3,s2,s1;
+	
+	input not(s0,s3);
+	not(s1,s2,s0,s3);	
+	
+endmodule

@@ -1,0 +1,10 @@
+module top 4 1
+wire s0 1
+wire s1 1
+wire s2 1
+wire s3 1
+component not name5 4
+pin s1 -1 -1
+pin s2 -1 -1
+pin s0 -1 -1
+pin s3 -1 -1

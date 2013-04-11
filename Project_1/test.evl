@@ -1,0 +1,10 @@
+// a comment
+module top;
+
+	wire s0, s1;
+
+	dff(s0, s1);
+
+	not(s1, s0);
+
+endmodule

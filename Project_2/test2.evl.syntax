@@ -1,0 +1,21 @@
+module one 5 3
+wire a1 6
+wire a2 17
+wire a3 1
+wire a4 1
+wire a6 1
+component output dff 2
+pin a1 5 0
+pin a2 16 0
+component dff NONE 2
+pin a1 0 0
+pin a2 4 4
+component dff NONE 2
+pin a1 2 0
+pin a2 4 2
+module two 2 1
+wire a1 1
+wire a2 1
+component dff NONE 2
+pin a1 -1 -1
+pin a2 -1 -1

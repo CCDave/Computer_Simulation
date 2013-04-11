@@ -1,0 +1,12 @@
+module top 2 3
+wire a1 5
+wire a2 5
+component output dff 2
+pin a1 4 0
+pin a2 4 0
+component dff NONE 2
+pin a1 0 0
+pin a2 4 4
+component dff NONE 2
+pin a1 2 0
+pin a2 4 2

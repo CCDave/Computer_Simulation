@@ -1,0 +1,8 @@
+// Testing single bit wires
+module top;
+	
+	wire s0,s3,s2,s1;
+	input name5(s0,s2,s3);	
+	output name3(s3,s2,s1);
+	
+endmodule

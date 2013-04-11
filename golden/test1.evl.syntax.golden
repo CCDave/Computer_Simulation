@@ -1,0 +1,13 @@
+module top 4 2
+wire s0 1
+wire s1 1
+wire s2 1
+wire s3 1
+component input not 2
+pin s0 -1 -1
+pin s3 -1 -1
+component not NONE 4
+pin s1 -1 -1
+pin s2 -1 -1
+pin s0 -1 -1
+pin s3 -1 -1

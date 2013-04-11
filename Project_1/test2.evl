@@ -1,0 +1,7 @@
+module top;
+	
+	wire s1, s2, out, out2;
+	adder out, s1, s2; //this is an adder
+	adder out2, s1, out;
+	
+endmodule

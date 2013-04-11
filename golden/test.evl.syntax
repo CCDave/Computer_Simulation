@@ -1,0 +1,8 @@
+module top 3 1
+wire in1 3
+wire in2 3
+wire out 3
+component and name 3
+pin out 1 1
+pin in1 1 1
+pin in2 1 1

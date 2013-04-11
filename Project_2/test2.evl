@@ -1,0 +1,22 @@
+// Testing multi-bit wires
+module one;
+	
+	wire a6;
+	
+	output dff(a1,a2);
+	dff(a1[0],a2[4]);
+	dff(a1[2:0],a2[4:2]);
+	
+	wire [5:0] a1;
+	wire [16:0] a2;
+	wire a3;
+	wire a4;
+
+endmodule
+
+module two;
+	wire a1;
+	dff(a1,a2);
+	wire a2;
+endmodule
+

@@ -1,0 +1,17 @@
+9 1
+net in1[0] 0
+net in1[1] 1
+pin and name 1
+net in1[2] 0
+net in2[0] 0
+net in2[1] 1
+pin and name 2
+net in2[2] 0
+net out[0] 0
+net out[1] 1
+pin and name 0
+net out[2] 0
+gate and name 3
+pin 1 out[1]
+pin 1 in1[1]
+pin 1 in2[1]

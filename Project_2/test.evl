@@ -1,0 +1,8 @@
+// a comment
+module top;
+
+	wire [15:0] a;
+
+	not(a[1]);
+	
+endmodule

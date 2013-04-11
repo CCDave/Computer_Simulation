@@ -1,0 +1,20 @@
+﻿Build started 2/1/2013 2:21:18 PM.
+     1>Project "E:\College\4-Senior\ECE 449\Projects\Project_1\Project_1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Project_1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Project_1.unsuccessfulbuild".
+         Touching "Debug\Project_1.lastbuildstate".
+     1>Done Building Project "E:\College\4-Senior\ECE 449\Projects\Project_1\Project_1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11

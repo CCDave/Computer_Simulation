@@ -1,0 +1,8 @@
+// a comment
+module top;
+
+	wire [2:0]out,in1,in2;
+
+	and name(out[1],in1[1],in2[1]);
+	
+endmodule
