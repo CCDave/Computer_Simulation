@@ -1,0 +1,14 @@
+3 1
+net in1 1
+pin and name 1
+net in2 1
+pin and name 2
+net out 1
+pin and name 0
+gate and name 3
+pin and name 0
+pin and name 1
+pin and name 2
+pin 1 in1
+pin 1 in2
+pin 1 out
