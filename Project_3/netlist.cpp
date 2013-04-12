@@ -10,14 +10,12 @@
 #include "statements.h"
 #include "netlist.h"
 
-
 std::string make_net_name(std::string wire_name, int i) {
 	assert (i >= 0);
 	std::ostringstream oss;
 	oss << wire_name << "[" << i << "]";
 	return oss.str();
 }
-
 
 ///////////NET///////////
 void net::append_pin(pin *p) {
@@ -98,9 +96,13 @@ void gate::display(std::ostream &out){
 	out<< "gate " << get_type() << " " << get_name() << " " << pins_.size() << std::endl;
 	//Iterate through pins in the gate
 	for(std::vector<pin*>::size_type i = 0; i != pins_.size(); ++i) {
-		out << "pin " << get_type() << " " << get_name() << " " << pins_[i]->pin_index_ << std::endl;
+		out << "pin " << pins_[i]->get_pin_width();
+		
+		for(std::vector<net *>::size_type j = 0; j != pins_[i]->nets_.size(); ++j) {
+			out << " " << pins_[i]->nets_[j]->get_net_name();
+		}
+		out << std::endl;
 	}
-	
 }
 //////////////////////////
 
@@ -197,10 +199,8 @@ void netlist::display_netlist(std::ostream &out) {
 		}
 	}
 	
-	gates_.back()->display(out); 
-	
-	for (std::map<std::string, net *>::const_iterator net_it1 = nets_.begin(); net_it1 != nets_.end(); ++net_it1) {
-		out << "pin " << net_it1->second->connections_.size() << " " << net_it1->first << std::endl;
+	for (std::list<gate *>::const_iterator gate_it = gates_.begin(); gate_it != gates_.end(); ++gate_it) {
+		(*gate_it)->display(out);
 	}
 }
 //////////////////////////
