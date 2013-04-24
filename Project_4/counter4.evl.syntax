@@ -1,0 +1,60 @@
+module counter4 12 13
+wire c0 1
+wire c1 1
+wire c2 1
+wire c3 1
+wire n0 1
+wire n1 1
+wire n2 1
+wire n3 1
+wire s0 1
+wire s1 1
+wire s2 1
+wire s3 1
+component one NONE 1
+pin c0 -1 -1
+component output sim_out 4
+pin s3 -1 -1
+pin s2 -1 -1
+pin s1 -1 -1
+pin s0 -1 -1
+component dff F0 2
+pin s0 -1 -1
+pin n0 -1 -1
+component dff F1 2
+pin s1 -1 -1
+pin n1 -1 -1
+component dff F2 2
+pin s2 -1 -1
+pin n2 -1 -1
+component dff F3 2
+pin s3 -1 -1
+pin n3 -1 -1
+component xor X0 3
+pin n0 -1 -1
+pin s0 -1 -1
+pin c0 -1 -1
+component xor X1 3
+pin n1 -1 -1
+pin s1 -1 -1
+pin c1 -1 -1
+component xor X2 3
+pin n2 -1 -1
+pin s2 -1 -1
+pin c2 -1 -1
+component xor X3 3
+pin n3 -1 -1
+pin s3 -1 -1
+pin c3 -1 -1
+component and A0 3
+pin c1 -1 -1
+pin s0 -1 -1
+pin c0 -1 -1
+component and A1 3
+pin c2 -1 -1
+pin s1 -1 -1
+pin c1 -1 -1
+component and A2 3
+pin c3 -1 -1
+pin s2 -1 -1
+pin c2 -1 -1

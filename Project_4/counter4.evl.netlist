@@ -1,0 +1,94 @@
+12 13
+net c0 3
+pin one NONE 0
+pin xor X0 2
+pin and A0 2
+net c1 3
+pin xor X1 2
+pin and A0 0
+pin and A1 2
+net c2 3
+pin xor X2 2
+pin and A1 0
+pin and A2 2
+net c3 2
+pin xor X3 2
+pin and A2 0
+net n0 2
+pin dff F0 1
+pin xor X0 0
+net n1 2
+pin dff F1 1
+pin xor X1 0
+net n2 2
+pin dff F2 1
+pin xor X2 0
+net n3 2
+pin dff F3 1
+pin xor X3 0
+net s0 4
+pin output sim_out 3
+pin dff F0 0
+pin xor X0 1
+pin and A0 1
+net s1 4
+pin output sim_out 2
+pin dff F1 0
+pin xor X1 1
+pin and A1 1
+net s2 4
+pin output sim_out 1
+pin dff F2 0
+pin xor X2 1
+pin and A2 1
+net s3 3
+pin output sim_out 0
+pin dff F3 0
+pin xor X3 1
+gate one NONE 1
+pin 1 c0
+gate output sim_out 4
+pin 1 s3
+pin 1 s2
+pin 1 s1
+pin 1 s0
+gate dff F0 2
+pin 1 s0
+pin 1 n0
+gate dff F1 2
+pin 1 s1
+pin 1 n1
+gate dff F2 2
+pin 1 s2
+pin 1 n2
+gate dff F3 2
+pin 1 s3
+pin 1 n3
+gate xor X0 3
+pin 1 n0
+pin 1 s0
+pin 1 c0
+gate xor X1 3
+pin 1 n1
+pin 1 s1
+pin 1 c1
+gate xor X2 3
+pin 1 n2
+pin 1 s2
+pin 1 c2
+gate xor X3 3
+pin 1 n3
+pin 1 s3
+pin 1 c3
+gate and A0 3
+pin 1 c1
+pin 1 s0
+pin 1 c0
+gate and A1 3
+pin 1 c2
+pin 1 s1
+pin 1 c1
+gate and A2 3
+pin 1 c3
+pin 1 s2
+pin 1 c2

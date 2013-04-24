@@ -1,0 +1,26 @@
+4 5
+net final 1
+pin dff NONE 0
+net in1 2
+pin one NONE 0
+pin and name 1
+net in2 2
+pin one NONE 0
+pin and name 2
+net out 3
+pin output sim_out 0
+pin and name 0
+pin dff NONE 1
+gate output sim_out 1
+pin 1 out
+gate one NONE 1
+pin 1 in1
+gate one NONE 1
+pin 1 in2
+gate and name 3
+pin 1 out
+pin 1 in1
+pin 1 in2
+gate dff NONE 2
+pin 1 final
+pin 1 out

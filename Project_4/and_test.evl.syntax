@@ -1,0 +1,18 @@
+module top 4 5
+wire final 1
+wire in1 1
+wire in2 1
+wire out 1
+component output sim_out 1
+pin out -1 -1
+component one NONE 1
+pin in1 -1 -1
+component one NONE 1
+pin in2 -1 -1
+component and name 3
+pin out -1 -1
+pin in1 -1 -1
+pin in2 -1 -1
+component dff NONE 2
+pin final -1 -1
+pin out -1 -1

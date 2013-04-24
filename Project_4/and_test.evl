@@ -1,0 +1,15 @@
+// a comment
+module top;
+
+	wire out,in1,in2, final;
+	
+	output sim_out(out);
+	
+	one(in1);
+	one(in2);
+	
+	and name(out,in1,in2);
+	
+	dff(final,out);
+	
+endmodule

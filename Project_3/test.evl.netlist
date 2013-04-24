@@ -9,3 +9,16 @@ gate and name 3
 pin 1 out
 pin 1 in1
 pin 1 in2
+
+
+void buckets_priority_scheduler::insert(priority_event_i *event, int priority) { 
+	assert((0< = priority) && (priority < events_.size()));
+	events_[priority].push_back(event);
+}
+void buckets_priority_scheduler::run() {
+for (int p = 0; p < events_.size(); ++p) {
+for (; !events_[p].empty(); events_[p].pop_front()) {
+fire_event(events_[p].front());
+}
+}
+}
