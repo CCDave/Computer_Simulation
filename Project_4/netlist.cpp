@@ -150,6 +150,8 @@ bool gate::compute() {
 			pins_[i]->get_value();
 		}
 	}
+	//compute output
+	//return output
 	return false;
 	//	return output;
 }
@@ -278,11 +280,14 @@ void netlist::simulate(int cycles) {
 	display_sim_out(output_file);
 	display_sim_in(input_file);
 	for(int i = 0; i != cycles; i++){
+
+		
 		
 		for(std::list<gate *>::const_iterator gate = gates_.begin(); gate != gates_.end(); ++ gate) {
 			
-			(*gate)->compute_next_state();
-			
+			if((*gate)->get_type() == "dff") {
+				(*gate)->compute_next_state();
+			}
 		}
 		
 		
@@ -335,8 +340,11 @@ bool and_gate::validate_structural_semantics() {
 	return true;
 }
 
-void and_gate::compute_next_state() {
-	std::cout << "In And" << std::endl;
+//compute output
+void and_gate::compute_gate() {
+	for (size_t i = 1; i < pins_.size(); ++i) {
+		if(!pins_[i]->get_value())
+	}
 }
 
 bool or_gate::validate_structural_semantics() {

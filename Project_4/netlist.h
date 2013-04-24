@@ -54,6 +54,7 @@ class gate {
 	bool create_pin(const evl_pin &p, size_t pin_index, const std::map<std::string, net *> &netlist_nets);
 	virtual bool validate_structural_semantics() = 0;
 	virtual void compute_next_state() = 0;
+	virtual void computer_gate() = 0;
 protected:
 	std::vector<pin*> pins_;
 	gate(std::string type, std::string name) {
@@ -100,6 +101,7 @@ class and_gate: public gate {
 	bool validate_structural_semantics();
 public:
 	void compute_next_state();
+	void compute_gate();
 	and_gate(std::string name)
 		: gate("and", name), state_(false), next_state_(false) {}
 };
